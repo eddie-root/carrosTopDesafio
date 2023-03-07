@@ -62,3 +62,19 @@
     margin: 42px 18px 41px 0px;
   }
 }
+
+@media (min-width: 992px) {
+  .car-busca-container {
+    width: 952px;
+  }
+
+  .form-control {
+    width: 584px;
+    margin: 42px 0px 41px 97px;
+  }
+
+  .btn {
+    width: 174px;
+    margin: 42px 97px 41px 0px;
+  }
+}

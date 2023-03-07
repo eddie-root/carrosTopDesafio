@@ -88,7 +88,7 @@
   }
 
   .card-text-content {
-    width: 164px;
+    width: 264px;
     margin-top: 8px;
     margin-left: 78px;
   }
@@ -102,6 +102,35 @@
 
   .button-compra {
     width: 307px;
+    margin: 0px 22px 15px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-top-content {
+    width: 296px;
+    margin: 15px 12px 15px 20px;
+  }
+
+  .card-top-content img {
+    width: 214px;
+  }
+
+  .card-text-content {
+    width: 255px;
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+
+  .card-details-content {
+    width: 255px;
+    height: 32px;
+    font-size: 14px;
+    margin: 14px 22px 38px 20px;
+  }
+
+  .button-compra {
+    width: 257px;
     margin: 0px 22px 15px 20px;
   }
 }
