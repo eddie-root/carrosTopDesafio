@@ -18,3 +18,15 @@
 .main-menu a.active {
   font-weight: bold;
 }
+
+@media (min-width: 768px) {
+  .nav-logo-text h4 {
+    margin-left: 20px;
+  }
+
+  .navbar-collapse {
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-right: 20px;
+  }
+}

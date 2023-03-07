@@ -1,0 +1,64 @@
+.car-busca-container {
+  width: 300px;
+  height: 86px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+.input-group {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.form-control {
+  width: 199px;
+  height: 40px;
+  margin: 22px 0px 24px 10px;
+}
+
+.btn {
+  width: 77px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  background: #00285f;
+  border-radius: 0px 5px 5px 0px;
+  margin: 22px 5px 25px 0px;
+}
+
+@media (min-width: 576px) {
+  .car-busca-container {
+    width: 536px;
+    height: 123px;
+    margin-left: 10px;
+  }
+
+  .form-control {
+    width: 320px;
+    height: 40px;
+    margin: 42px 0px 41px 20px;
+  }
+
+  .btn {
+    width: 174px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 42px 22px 41px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .car-busca-container {
+    width: 728px;
+  }
+
+  .form-control {
+    width: 516px;
+    margin: 42px 0px 41px 20px;
+  }
+
+  .btn {
+    width: 174px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 42px 18px 41px 0px;
+  }
+}

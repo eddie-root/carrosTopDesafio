@@ -1,22 +1,10 @@
-.product-container {
-  margin: 10px;
-  font-size: 20px;
-  text-align: center;
-}
-
-.car-busca-container {
-  width: 300px;
-  height: 86px;
-  background-color: #e0e0e0;
-  border-radius: 10px;
-}
-
 .card-top-content {
   width: 300px;
   height: 347px;
   background-color: #e0e0e0;
   margin-top: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .card-top-content img {
@@ -53,23 +41,67 @@
   color: #ffffff;
 }
 
-.input-group {
-  border-radius: 5px 0px 0px 5px;
+@media (min-width: 576px) {
+  .card-top-content {
+    width: 258px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+  .card-top-content img {
+    width: 210px;
+    height: 155px;
+    margin: 14px 18px 0px 19px;
+  }
+
+  .card-text-content {
+    width: 161px;
+    height: 21px;
+    margin-top: 8px;
+    margin-left: 48px;
+  }
+
+  .card-details-content {
+    width: 220px;
+    height: 28px;
+    font-size: 12px;
+    margin: 14px 14px 38px 22px;
+  }
+
+  .button-compra {
+    width: 220px;
+    height: 40px;
+    margin: 18px 18px 15px 20px;
+  }
 }
 
-.form-control {
-  width: 199px;
-  height: 40px;
-  margin: 22px 0px 24px 10px;
-}
+@media (min-width: 768px) {
+  .card-top-content {
+    width: 349px;
+    margin: 15px 15px 15px 20px;
+  }
 
-.btn {
-  width: 77px;
-  height: 40px;
-  font-weight: 700;
-  font-size: 14px;
-  color: #ffffff;
-  background: #00285f;
-  border-radius: 0px 5px 5px 0px;
-  margin: 22px 5px 25px 0px;
+  .card-top-content img {
+    width: 221px;
+    height: 165px;
+  }
+
+  .card-text-content {
+    width: 164px;
+    margin-top: 8px;
+    margin-left: 78px;
+  }
+
+  .card-details-content {
+    width: 307px;
+    height: 32px;
+    font-size: 14px;
+    margin: 14px 22px 38px 20px;
+  }
+
+  .button-compra {
+    width: 307px;
+    margin: 0px 22px 15px 20px;
+  }
 }
